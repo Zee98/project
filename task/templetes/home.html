@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<p class="text-center mt-3">hello and welcoem Home,<br> {{user}}</p>
+
+<a href="{% url 'logout' %}">logout here</a>
+{% endblock content %}
